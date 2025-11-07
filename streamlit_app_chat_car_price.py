@@ -154,7 +154,7 @@ st.markdown("<div class='main-header'>🚘 Prediksi Harga Mobil + Chat Gemini AI
 # =========================
 st.sidebar.header("📁 Status Berkas")
 def file_status(path): return "✅" if os.path.exists(path) else "❌"
-st.sidebar.write(f"model_kompres.pkl: {file_status('model_kompres.pkl')}")
+st.sidebar.write(f"mo.pkl: {file_status('mo.pkl')}")
 st.sidebar.write(f"columns.json: {file_status('columns.json')}")
 st.sidebar.write(f"toyota.csv: {file_status('toyota.csv')}")
 st.sidebar.markdown("---")
@@ -228,7 +228,7 @@ def local_chat_response(user_message: str, df=None):
 # =========================
 # MUAT MODEL & DATA
 # =========================
-MODEL_PATH = "model_kompres.pkl"
+MODEL_PATH = "mo.pkl"
 DATASET_PATH = "toyota.csv"
 EXAMPLE_PATH = "example_schema.json"
 
@@ -289,4 +289,5 @@ with tab2:
 
 st.markdown("---")
 st.caption("✨ Aplikasi Prediksi Harga Mobil + Chat Gemini AI — versi Neon Futuristik ✨")
+
 
