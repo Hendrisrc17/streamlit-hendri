@@ -1,0 +1,5 @@
+model,year,transmission,mileage,fuelType,tax,mpg,engineSize,prediction
+ Aygo,2017.0,Manual,11730.0,Petrol,0.0,68.9,1.0,7838.673333333333
+ Aygo,2017.0,Manual,11730.0,Petrol,0.0,68.9,1.0,7838.673333333333
+ Aygo,2017.0,Manual,11730.0,Petrol,0.0,68.9,1.0,7838.673333333333
+ Aygo,2017.0,Manual,11730.0,Petrol,0.0,68.9,1.0,7838.673333333333
